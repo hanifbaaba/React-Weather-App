@@ -1,10 +1,10 @@
 export default function WeatherCard() {
   return (
-    <div className="weather-info">
-      <h1>Weather Info:</h1>
-      <input type="text" className="input-weather" />
-      <button className="btn-weather">Get Weather Data</button>
-      <div className="weather-placeholder">Weather Data</div>
+    <div className="weather-container">
+      <h1 className="weather-title">Weather Info</h1>
+      <input type="text" className="city-input" placeholder="Enter City..." />
+      <button className="weather-btn">Get Weather Data</button>
+      <div className="weather-info">Weather Data</div>
     </div>
   );
 }
